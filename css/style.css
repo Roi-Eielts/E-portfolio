@@ -1,0 +1,347 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.achtergrondkleur {
+    background-color: orange;
+}
+
+/* site theme */
+.light {
+    background-color: white;
+    color: black;
+}
+.achtergrondkleur_licht {
+    background-color: black;
+}
+
+/* navbar */
+.logo {
+    width: 30px;
+}
+
+.nav-link:hover {
+    color: coral !important;
+}
+
+.navbar-light {
+    color: white !important;
+}
+
+.nav-link {
+    color: orange !important;
+}
+
+.active {
+    color: orangered !important;
+}
+
+/* kleur switch */
+.btn-5 {
+    color: orange;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(156, 62, 62, 0.5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn-5:hover {
+    color: orangered;
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(156, 62, 62, 0.5);
+    outline-offset: 15px;
+}
+
+
+
+/* The sidebar menu */
+.sidebar {
+    width: 60px;
+    /* height: 29vh; * experiment with this value, try changing to 110vh */
+    min-height: 200px;
+    overflow: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5%;
+}
+
+/* home page */
+.home_text {
+    margin-top: 100px;
+}
+
+.kleur {
+    color: white;
+    background-color: #090909;
+}
+
+.homeButton {
+    text-decoration: none;
+    color: orange;
+}
+
+.homeButton:hover {
+    color: orangered;
+}
+
+/* script text typen */
+
+.typewriter p {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid darkorange;
+    /* The typwriter cursor*/
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+/* new page openen voor email */
+.fa {
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* linked in */
+.fa-linkedin {
+    background-color: blue;
+    color: white;
+}
+
+.fa-linkedin:hover {
+    background-color: blue;
+    color: white;
+    opacity: 0.7;
+}
+
+/* google */
+.fa-google {
+    background: #b02929;
+    color: white;
+}
+
+/* google */
+.fa-google:hover {
+    background: #b02929;
+    color: white;
+    opacity: 0.7;
+}
+
+/* github */
+.fa-github {
+    background-color: black;
+}
+
+/* overMij pagina */
+.kleurtjes {
+    background-color: rgb(46, 46, 46) !important;
+}
+
+.tablinks {
+    color: white;
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.offcanvas {
+    height: 75% !important;
+}
+
+.knop {
+    background-color: white;
+}
+
+.afbeelding {
+    width: 100%;
+}
+
+/* werk/projecten */
+.kleur-carousel {
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.slide-tekst {
+    color: black;
+}
+
+.logo-slide {
+    filter: brightness(50%);
+}
+#showcase img {
+    height: 400px;
+    object-fit: cover;
+}
+#showcase2 img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    padding: 0px;
+}
+
+.carousel-inner {
+    transition: (.1s ease-in-out left);
+}
+
+.github {
+    text-decoration: none;
+    color: orange;
+}
+
+.github:hover {
+    text-decoration: none;
+    color: orangered;
+}
+
+.btn-two {
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.btn-two span {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-two::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-two::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-two:hover::before {
+    transform: rotate(-45deg);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.btn-two:hover::after {
+    transform: rotate(45deg);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.inhoud {
+    font-family: 'Bentham', serif;
+}
+
+.inhoud h1 {
+    font-size: 34px;
+}
+
+.margin_tekst {
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.ruimte {
+    margin-top: 80px;
+}
+
+.margin-under {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,31 @@
+<script>
+    var currentTime = new Date();
+    var dagen = currentTime.getDate;
+      var day;
+      switch (new Date().getDay()) {
+        case 0:
+          day = "Morgen mag ik gelukkig weer naar school.";
+          break;
+        case 1:
+          day = "Het is maandag, het weekend is helaas voorbij...";
+          break;
+        case 2:
+          day = "Dinsdag is de leukste dag van de week, want dan hebben we frontend!";
+          break;
+        case 3:
+          day = "We zijn alweer op de helft van de week!";
+          break;
+        case 4:
+          day = "Nog even volhouden, het is bijna weekend...";
+          break;
+        case 5:
+          day = "De laatste dag van de week, het zit er weer op!";
+          break;
+        case  6:
+          day = "Lekker weekend, veel tijd om huiswerk te maken.";
+          break;
+      }
+      alert(day);
+      document.write(day);
+      console.log(day);
+</script>

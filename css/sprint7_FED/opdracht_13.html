@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>heb je een baan?</p>
+<input id="ja_nee" required><br>
+<p>wat is je leeftijd?</p>
+<input id="age" required><br>
+<button type="button" onclick="myFunction()">Submit</button>
+
+<script>
+function myFunction() { 
+    let a = document.getElementById("ja_nee").value;
+    let b = document.getElementById("age").value;
+    let text;
+    if(b >= 18){
+      if(a == "ja") {
+          text = "Je mag 500,- euro lenen";
+      } else {
+          text = "je mag 250,- euro lenen";
+      }
+    } else {
+      text = "je mag niets lenen.";
+    }
+    alert(text);
+}
+</script>
+
+</body>
+</html> 

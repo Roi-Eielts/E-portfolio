@@ -1,0 +1,9 @@
+RewriteEngine on
+
+
+RewriteBase /sprint7_lbs
+
+RewriteRule ^home$ index.php?pagina=home
+RewriteRule ^overMij$ index.php?pagina=overMij
+RewriteRule ^ww$ index.php?pagina=ww
+RewriteRule ^contact$ index.php?pagina=contact

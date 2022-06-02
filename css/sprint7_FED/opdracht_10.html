@@ -1,0 +1,14 @@
+<script>
+    var date1 = new Date();
+    var date2 = new Date("12/25/2022");
+  
+// To calculate the time difference of two dates
+    var Difference_In_Time = date2.getTime() - date1.getTime();
+  
+// To calculate the no. of days between two dates
+    var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
+    var a = Math.round(Difference_In_Days)
+  
+//To display the final no. of days (result)
+    document.write("dagen tot kerst: " + a);
+</script>
