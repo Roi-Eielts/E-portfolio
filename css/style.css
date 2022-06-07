@@ -12,6 +12,7 @@ body {
     background-color: white;
     color: black;
 }
+
 .achtergrondkleur_licht {
     background-color: black;
 }
@@ -185,6 +186,7 @@ body {
 .tablinks {
     color: white;
 }
+
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
@@ -248,10 +250,12 @@ body {
 .logo-slide {
     filter: brightness(50%);
 }
+
 #showcase img {
     height: 400px;
     object-fit: cover;
 }
+
 #showcase2 img {
     height: 400px;
     object-fit: cover;
@@ -344,4 +348,24 @@ body {
 
 .margin-under {
     margin-bottom: 50px;
+}
+
+
+.btn {
+    margin-top: 5px;
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+.fa-download {
+color: white;
 }

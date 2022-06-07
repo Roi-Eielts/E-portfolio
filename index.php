@@ -21,7 +21,7 @@
     ?>
     <div class="sidebar">
         <a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=GTvVlcSGLdkGRHdCjwVBbNvvKgPWcSwWgfwLslCNWjgVtMhsHxRpMBdgqnDSlJGsgvbPDSdlmPjnL" class="fa fa-google" target="_blank"></a><br>
-        <a href="#" class="fa fa-linkedin" target="_blank"></a><br>
+        <a href="https://www.linkedin.com/in/roi-eielts" class="fa fa-linkedin" target="_blank"></a><br>
         <a href="https://github.com/Roi-Eielts" class="fa fa-github" target="_blank"></a><br>
     </div>
     <?php

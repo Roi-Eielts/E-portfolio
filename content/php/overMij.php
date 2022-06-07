@@ -326,6 +326,10 @@
                     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#sprint">
                         Schoolvakken & cijfer per sprint.
                     </button>
+                    <button class="btn">
+                        <i class="fa fa-download"></i> 
+                        <a style="color: white;" href="https://scalda365-my.sharepoint.com/:w:/r/personal/235227_student_scalda_nl/Documents/jaar%201/LBS/spr8/CV-Ro%C3%AF.docx?d=wbc044862d04e420e809cc4212ee69365&csf=1&web=1&e=N59A4m" target="_blank">download mijn cv</a>
+                    </button>
                 </div>
                 <div class="col-md-6">
                 </div>
