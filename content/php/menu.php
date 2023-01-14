@@ -30,8 +30,4 @@
               </div>
             </div>
             <a class="btn btn-5" onclick="myFunction()">dark/light thema</a> 
-            <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
-            <audio id="myAudio">
-              <source src="content/javascript/audio.mp3" type="audio/mpeg">
-            </audio>
 </nav>
