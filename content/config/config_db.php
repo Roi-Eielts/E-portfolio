@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "";
-$password = "";
+$username = "root";
+$password = "root";
 $dbNaam = "roi_database";
 
 // Create connection
