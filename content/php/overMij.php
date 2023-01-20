@@ -25,7 +25,7 @@
             </p>
         </div>
         <div class="col-md-6">
-            <form method="get" action="CV-Roï.docx">
+            <form method="get" action="cv-roieielts.pdf">
                 <button class="btn btn-primary" type="submit">Download mijn cv</button>
             </form>
         </div>
